@@ -22,6 +22,7 @@
 - **游戏名保留英文原名，括号内是中文译名**：商业游戏沿用通行译名（如 Doom → 毁灭战士），开源原创作品多为直译；项目名本身就是引擎或复刻项目的，括号内注明它复刻的是哪款游戏（如 OpenMW → 晨风 复刻引擎）。
 - 分类沿用英文原版的结构与顺序，条目位置未做调整，方便与英文版逐条对照。
 - 本中文版是社区翻译，若与英文版有出入，**以英文版为准**。
+- 游戏名前带 **📱** 表示**手机可直接玩**（Android 原生或手机浏览器），未标记的为桌面端（Windows / Linux / macOS）。完整列表见 [按平台速查](#按平台速查)。
 
 ## 协议与使用提醒
 
@@ -55,6 +56,7 @@
 
 ## 目录
 
+- [按平台速查](#按平台速查)
 - [动作游戏](#动作游戏)
 - [冒险游戏](#冒险游戏)
 - [商业与经营模拟游戏](#商业与经营模拟游戏)
@@ -75,6 +77,43 @@
 - [其他清单](#其他清单)
 
 
+## 按平台速查
+
+正文按玩法分类，这里按**运行平台**再列一次。规则很简单：带 **📱** 的能在手机上玩，其余都只有桌面版。
+
+### 📱 手机可玩（Android / 手机浏览器）
+
+| 游戏 | 品类 | 安装方式 | 需要原版游戏数据 |
+|---|---|---|---|
+| **[Mindustry](https://mindustrygame.github.io)** | 即时战略 | Google Play / itch.io，或自行编译 APK | 否 |
+| **Freeserf.net** | 即时战略 | [GitHub Releases](https://github.com/Pyrdacor/freeserf.net/releases) 直接提供 APK | 是（工人物语 1） |
+| **[OpenTTD](https://www.openttd.org)** | 商业与经营模拟 | F-Droid / Google Play（第三方 Android 版） | 否（可用免费的 OpenGFX 素材） |
+| **[OpenRCT2](https://openrct2.org)** | 商业与经营模拟 | [GitHub Releases](https://github.com/OpenRCT2/OpenRCT2/releases) 的 `*-android.apk` | 是（过山车大亨 2） |
+| **Julius** | 商业与经营模拟 | [GitHub Releases](https://github.com/bvschaik/julius/releases) 的 `julius-*-android.apk` | 是（凯撒 3） |
+| **[ScummVM](https://www.scummvm.org)** | 冒险 | Google Play / F-Droid（官方） | 是（各冒险游戏本体） |
+| **[Shattered Pixel Dungeon](https://shatteredpixel.com)** | 类 Rogue | [GitHub Releases](https://github.com/00-Evan/shattered-pixel-dungeon/releases) / Google Play / F-Droid | 否 |
+| **[Cataclysm: DDA](https://cataclysmdda.org)** | 类 Rogue | [GitHub Releases](https://github.com/CleverRaven/Cataclysm-DDA/releases) 的每日构建 APK | 否 |
+| **[DevilutionX](https://devilutionx.com/)** | 角色扮演 | [GitHub Releases](https://github.com/diasurgical/devilutionX/releases) 的 `devilutionx-android.apk` | 是（暗黑破坏神 1） |
+| **Fallout Community Edition** | 角色扮演 | [GitHub Releases](https://github.com/alexbatalov/fallout1-ce/releases) 的 `fallout-ce-android.apk` | 是（辐射 1） |
+| **Fallout 2 Community Edition** | 角色扮演 | [GitHub Releases](https://github.com/alexbatalov/fallout2-ce/releases) 的 `fallout2-ce-android.apk` | 是（辐射 2） |
+| **OpenEnroth** | 角色扮演 | [GitHub Releases](https://github.com/OpenEnroth/OpenEnroth/releases) 的 `OpenEnroth_nightly_Android_*.apk` | 是（魔法门 6-8） |
+| **[Exult](https://exult.sourceforge.io)** | 角色扮演 | [GitHub Releases](https://github.com/exult/exult/releases) 的 `exult-*-signed.apk` | 是（创世纪 7） |
+| **[Ambermoon.net](https://pyrdacor.itch.io/ambermoon)** | 角色扮演 | [GitHub Releases](https://github.com/Pyrdacor/Ambermoon.net/releases) 的 `*Android-Signed.apk` | 是（Ambermoon） |
+| **[OpenLara](http://xproger.info/projects/OpenLara)** | 第三人称 | [GitHub Releases](https://github.com/XProger/OpenLara/releases) 的 `OpenLara_android.zip`（内含 APK） | 是（古墓丽影 1-5） |
+| **[Unciv](https://yairm210.itch.io/unciv)** | 回合制策略 | [GitHub Releases](https://github.com/yairm210/Unciv/releases) / F-Droid | 否 |
+| **[VCMI Project](https://vcmi.eu)** | 回合制策略 | [GitHub Releases](https://github.com/vcmi/vcmi/releases) 的 `VCMI-Android-*.apk` | 是（英雄无敌 3） |
+| **[fheroes2](https://ihhub.github.io/fheroes2)** | 回合制策略 | [GitHub Releases](https://github.com/ihhub/fheroes2/releases) 的 `fheroes2_android.zip` | 是（英雄无敌 2） |
+| **[SuperTuxKart](https://supertuxkart.net)** | 竞速 | [GitHub Releases](https://github.com/supertuxkart/stk-code/releases) 的 `SuperTuxKart-*.apk` | 否 |
+| **[micropolisJS](http://www.graememcc.co.uk/micropolisJS)** | 城市建造 | 手机浏览器打开官网即玩 | 否 |
+| **[Server Survival](https://pshenok.github.io/server-survival)** | 塔防 | 手机浏览器打开即玩 | 否 |
+| **[Whatajong](https://whatajong.com)** | 解谜 | 手机浏览器打开即玩 | 否 |
+
+> **Warzone 2100** 官方没有 Android 版，只有社区分支 [warzone2100-android](https://github.com/kjenney/warzone2100-android) 在推进移植，暂不建议普通玩家尝试。
+
+### 🖥️ 仅桌面（PC）
+
+除上表外，其余条目目前只提供 Windows / Linux / macOS 版本。理论上可用 Wine、Proton、Winlator 或 Termux-X11 折腾，但不在本清单“开箱即玩”的范围内。
+
 ## 动作游戏
 
 - **[Hypersomnia（嗜睡）](https://hypersomnia.io)** - 竞技性俯视射击游戏，节奏极快、像素怀旧风，自带地图编辑器。 [[source]](https://github.com/TeamHypersomnia/Hypersomnia)
@@ -87,7 +126,7 @@
 
 - **[Pioneer（先驱者）](https://pioneerspacesim.net)** - 设定在 33 世纪之交银河系中的太空冒险游戏。 [[source]](https://github.com/pioneerspacesim/pioneer)
 
-- **[ScummVM（SCUMM 虚拟机）](https://www.scummvm.org)** - 可运行多款经典图形冒险与角色扮演游戏的开源程序。 [[source]](https://github.com/scummvm/scummvm)
+- 📱 **[ScummVM（SCUMM 虚拟机）](https://www.scummvm.org)** - 可运行多款经典图形冒险与角色扮演游戏的开源程序。 [[source]](https://github.com/scummvm/scummvm)
 
 - **[The Legend of Zelda: Twilight Princess（塞尔达传说：黄昏公主）](https://zsrtp.link)** - 逆向工程项目，把 *[Twilight Princess](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess)* 反编译成人类可读、可修改的源码。 [[source]](https://github.com/zeldaret/tp)
 
@@ -101,9 +140,9 @@
 
 - **[OpenLoco（机车大亨 复刻）](https://openloco.io)** - [Chris Sawyer](https://en.wikipedia.org/wiki/Chris_Sawyer) 的 [Locomotion](https://en.wikipedia.org/wiki/Chris_Sawyer%27s_Locomotion) 的开源重制实现。 [[source]](https://github.com/OpenLoco/OpenLoco)
 
-- **[OpenRCT2（过山车大亨 2 复刻）](https://openrct2.org)** - *[RollerCoaster Tycoon 2](https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2)* 的开源重制实现。 [[source]](https://github.com/OpenRCT2/OpenRCT2)
+- 📱 **[OpenRCT2（过山车大亨 2 复刻）](https://openrct2.org)** - *[RollerCoaster Tycoon 2](https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_2)* 的开源重制实现。 [[source]](https://github.com/OpenRCT2/OpenRCT2)
 
-- **[OpenTTD（运输大亨 复刻）](https://www.openttd.org)** - 基于 *[Transport Tycoon Deluxe](https://en.wikipedia.org/wiki/Transport_Tycoon)* 的开源模拟游戏。 [[source]](https://github.com/OpenTTD/OpenTTD)
+- 📱 **[OpenTTD（运输大亨 复刻）](https://www.openttd.org)** - 基于 *[Transport Tycoon Deluxe](https://en.wikipedia.org/wiki/Transport_Tycoon)* 的开源模拟游戏。 [[source]](https://github.com/OpenTTD/OpenTTD)
 
 ## 城市建造游戏
 
@@ -117,9 +156,9 @@
 
 - **[IsoCity（等距城市）](https://iso-city.com)** - 等距视角城市建造模拟游戏，技术栈为 NextJS、TypeScript 与 TailwindCSS。 [[source]](https://github.com/amilich/isometric-city)
 
-- **Julius（尤利乌斯（凯撒 3 复刻））** - *[Caesar III](https://en.wikipedia.org/wiki/Caesar_III)* 的开源重制实现。 [[source]](https://github.com/bvschaik/julius)
+- 📱 **Julius（尤利乌斯（凯撒 3 复刻））** - *[Caesar III](https://en.wikipedia.org/wiki/Caesar_III)* 的开源重制实现。 [[source]](https://github.com/bvschaik/julius)
 
-- **[micropolisJS（微型城市（模拟城市 开源版））](http://www.graememcc.co.uk/micropolisJS)** - 开源城市模拟游戏 *[Micropolis](https://mvolution.itch.io/micropolis)* 的手写 JavaScript 移植版。 [[source]](https://github.com/graememcc/micropolisJS)
+- 📱 **[micropolisJS（微型城市（模拟城市 开源版））](http://www.graememcc.co.uk/micropolisJS)** - 开源城市模拟游戏 *[Micropolis](https://mvolution.itch.io/micropolis)* 的手写 JavaScript 移植版。 [[source]](https://github.com/graememcc/micropolisJS)
 
 - **[Unknown Horizons（未知地平线）](https://unknown-horizons.org)** - 侧重经济与城市建造的 2D 实时策略模拟游戏。
 
@@ -255,7 +294,7 @@
 
 - **Portal64（传送门 64）** - [Portal](https://en.wikipedia.org/wiki/Portal_(video_game)) 的 demake（为更老平台做的重制版），面向 Nintendo 64。 [[source]](https://github.com/mwpenny/portal64-still-alive)
 
-- **[Whatajong（什么麻将）](https://whatajong.com)** - [[source]](https://github.com/masylum/whatajong)
+- 📱 **[Whatajong（什么麻将）](https://whatajong.com)** - [[source]](https://github.com/masylum/whatajong)
 
 ## 竞速游戏
 
@@ -271,7 +310,7 @@
 
 - **[Stunt Rally（特技拉力）](https://stuntrally.tuxfamily.org)** - 带科幻元素、自带赛道编辑器的 3D 竞速游戏。 [[source]](https://github.com/stuntrally/stuntrally3)
 
-- **[SuperTuxKart（超级企鹅卡丁车）](https://supertuxkart.net)** - 免费卡丁车竞速游戏，主打乐趣而非真实卡丁车物理。 [[source]](https://github.com/supertuxkart/stk-code)
+- 📱 **[SuperTuxKart（超级企鹅卡丁车）](https://supertuxkart.net)** - 免费卡丁车竞速游戏，主打乐趣而非真实卡丁车物理。 [[source]](https://github.com/supertuxkart/stk-code)
 
 - **[TORCS - The Open Racing Car Simulator（开放式赛车模拟器）](https://torcs.sourceforge.net)** - 高可移植性的多平台赛车模拟，可用作普通赛车游戏、AI 赛车游戏与研究平台。 [[source]](https://sourceforge.net/projects/torcs)
 
@@ -291,11 +330,11 @@
 
 - **[Dune II The Maker（沙丘 2：缔造者）](https://dune2themaker.fundynamic.com)** - 《沙丘 2》重制版。 [[source]](https://github.com/stefanhendriks/Dune-II---The-Maker)
 
-- **Freeserf.net（工人物语 复刻）** - [BlueByte](https://en.wikipedia.org/wiki/Ubisoft_Blue_Byte) 出品的 [The Settlers I](https://en.wikipedia.org/wiki/The_Settlers) 的忠实重制版。 [[source]](https://github.com/Pyrdacor/freeserf.net)
+- 📱 **Freeserf.net（工人物语 复刻）** - [BlueByte](https://en.wikipedia.org/wiki/Ubisoft_Blue_Byte) 出品的 [The Settlers I](https://en.wikipedia.org/wiki/The_Settlers) 的忠实重制版。 [[source]](https://github.com/Pyrdacor/freeserf.net)
 
 - **[Keeper FX（地下城守护者 复刻）](https://keeperfx.net)** - [Dungeon Keeper](https://en.wikipedia.org/wiki/Dungeon_Keeper) 的开源重制与粉丝扩展版。 [[source]](https://github.com/dkfans/keeperfx)
 
-- **[Mindustry（工厂塔防）](https://mindustrygame.github.io)** - 沙盒塔防游戏。 [[source]](https://github.com/Anuken/Mindustry)
+- 📱 **[Mindustry（工厂塔防）](https://mindustrygame.github.io)** - 沙盒塔防游戏。 [[source]](https://github.com/Anuken/Mindustry)
 
 - **[OpenAge（帝国时代 2 复刻引擎）](https://openage.sft.mx)** - 免费（自由软件意义）跨平台 RTS 游戏引擎，提供 [Age of Empires](https://en.wikipedia.org/wiki/Age_of_Empires) 的机制。 [[source]](https://github.com/SFTtech/openage)
 
@@ -343,7 +382,7 @@
 
 - **[Brogue CE（Brogue 社区版）](https://sites.google.com/site/broguegame/)** - Brogue 是一款极简、回合制、程序生成的 roguelike：你深入险恶地牢，只为取回 Amulet of Yendor。 [[source]](https://github.com/tmewett/BrogueCE)
 
-- **[Cataclysm: Dark Days Ahead（大灾变：黑暗之日）](https://cataclysmdda.org)** - 末日废土背景的回合制生存游戏。 [[source]](https://github.com/CleverRaven/Cataclysm-DDA)
+- 📱 **[Cataclysm: Dark Days Ahead（大灾变：黑暗之日）](https://cataclysmdda.org)** - 末日废土背景的回合制生存游戏。 [[source]](https://github.com/CleverRaven/Cataclysm-DDA)
 
 - **[Dungeon Crawl Stone Soup（地牢爬行：石头汤）](https://crawl.develz.org)** - 开源 roguelike 冒险：穿越满是危险怪物的地牢，寻找传说中的 Orb of Zot。 [[source]](https://github.com/crawl/crawl)
 
@@ -353,19 +392,19 @@
 
 - **OpenNefia（伊洛纳 复刻）** - 日本 roguelike [Elona](https://en.wikipedia.org/wiki/Elona_(video_game)) 的可 mod 引擎重实现。 [[source]](https://github.com/OpenNefia/OpenNefia)
 
-- **[Shattered Pixel Dungeon（破碎像素地牢）](https://shatteredpixel.com)** - 开源传统 roguelike 地牢爬行游戏，关卡与敌人随机生成，数百种道具可收集使用。 [[source]](https://github.com/00-Evan/shattered-pixel-dungeon)
+- 📱 **[Shattered Pixel Dungeon（破碎像素地牢）](https://shatteredpixel.com)** - 开源传统 roguelike 地牢爬行游戏，关卡与敌人随机生成，数百种道具可收集使用。 [[source]](https://github.com/00-Evan/shattered-pixel-dungeon)
 
 ## 角色扮演游戏
 
-- **[Ambermoon.net（琥珀之月）](https://pyrdacor.itch.io/ambermoon)** - [Ambermoon](https://en.wikipedia.org/wiki/Ambermoon) 的完整 C# 重写。 [[source]](https://github.com/Pyrdacor/Ambermoon.net)
+- 📱 **[Ambermoon.net（琥珀之月）](https://pyrdacor.itch.io/ambermoon)** - [Ambermoon](https://en.wikipedia.org/wiki/Ambermoon) 的完整 C# 重写。 [[source]](https://github.com/Pyrdacor/Ambermoon.net)
 
 - **[Daggerfall Unity（匕首雨 Unity）](https://www.dfworkshop.net)** - 用 Unity 引擎对 [Daggerfall](https://en.wikipedia.org/wiki/The_Elder_Scrolls_II:_Daggerfall) 的开源重制。 [[source]](https://github.com/Interkarma/daggerfall-unity)
 
-- **[Exult（创世纪 7 复刻）](https://exult.sourceforge.io)** - 面向现代操作系统重制 [Ultima VII](https://en.wikipedia.org/wiki/Ultima_VII:_The_Black_Gate) 的项目。 [[source]](https://github.com/exult/exult)
+- 📱 **[Exult（创世纪 7 复刻）](https://exult.sourceforge.io)** - 面向现代操作系统重制 [Ultima VII](https://en.wikipedia.org/wiki/Ultima_VII:_The_Black_Gate) 的项目。 [[source]](https://github.com/exult/exult)
 
-- **Fallout Community Edition（辐射 社区版）** - [Fallout](https://en.wikipedia.org/wiki/Fallout_(video_game)) 的完整可用重实现。 [[source]](https://github.com/alexbatalov/fallout1-ce)
+- 📱 **Fallout Community Edition（辐射 社区版）** - [Fallout](https://en.wikipedia.org/wiki/Fallout_(video_game)) 的完整可用重实现。 [[source]](https://github.com/alexbatalov/fallout1-ce)
 
-- **Fallout 2 Community Edition（辐射 2 社区版）** - [Fallout 2](https://en.wikipedia.org/wiki/Fallout_2) 的完整可用重实现。 [[source]](https://github.com/alexbatalov/fallout2-ce)
+- 📱 **Fallout 2 Community Edition（辐射 2 社区版）** - [Fallout 2](https://en.wikipedia.org/wiki/Fallout_2) 的完整可用重实现。 [[source]](https://github.com/alexbatalov/fallout2-ce)
 
 - **[GemRB（无限引擎 复刻）](https://gemrb.org)** - Bioware [Infinity Engine](https://en.wikipedia.org/wiki/Infinity_Engine) 的可移植开源实现
 
@@ -387,7 +426,7 @@
 
 - **[Oolite（精英 复刻）](https://www.oolite.space/)** - 开放世界太空歌剧。 [[source]](https://github.com/OoliteProject/oolite)
 
-- **OpenEnroth（魔法门 6-8 复刻）** - 使用原始数据与代码的 [Might and Magic VI-VIII](https://en.wikipedia.org/wiki/Might_and_Magic) 引擎重制。 [[source]](https://github.com/OpenEnroth/OpenEnroth)
+- 📱 **OpenEnroth（魔法门 6-8 复刻）** - 使用原始数据与代码的 [Might and Magic VI-VIII](https://en.wikipedia.org/wiki/Might_and_Magic) 引擎重制。 [[source]](https://github.com/OpenEnroth/OpenEnroth)
 
 - **[OpenMW（晨风 复刻引擎）](https://openmw.org)** - 免费开源的现代引擎，重实现并扩展 2002 年的 Gamebryo 引擎，用于开放世界 RPG [The Elder Scrolls III: Morrowind](https://en.wikipedia.org/wiki/The_Elder_Scrolls_III:_Morrowind)。 [[source]](https://github.com/OpenMW/openmw)
 
@@ -407,7 +446,7 @@
 
 - **Abyss Engine（深渊引擎）** - [Diablo 2](https://en.wikipedia.org/wiki/Diablo_II) 的净室重实现，用 C 编写。 [[source]](https://github.com/AbyssEngine/AbyssEngine)
 
-- **[DevilutionX（暗黑破坏神 复刻）](https://devilutionx.com/)** - [Diablo](https://en.wikipedia.org/wiki/Diablo_(video_game)) 与 [Hellfire](https://en.wikipedia.org/wiki/Diablo:_Hellfire) 的移植版，力求开箱即玩，同时提供引擎改进、bug 修复与部分可选的体验优化。 [[source]](https://github.com/diasurgical/devilutionX)
+- 📱 **[DevilutionX（暗黑破坏神 复刻）](https://devilutionx.com/)** - [Diablo](https://en.wikipedia.org/wiki/Diablo_(video_game)) 与 [Hellfire](https://en.wikipedia.org/wiki/Diablo:_Hellfire) 的移植版，力求开箱即玩，同时提供引擎改进、bug 修复与部分可选的体验优化。 [[source]](https://github.com/diasurgical/devilutionX)
 
 - **[Freeablo（暗黑破坏神 复刻）](https://freeablo.org)** - 仍在开发中的免费开源 [Diablo I](https://en.wikipedia.org/wiki/Diablo_(video_game)) 引擎替代品。 [[source]](https://github.com/wheybags/freeablo)
 
@@ -443,7 +482,7 @@
 
 - **[Lugaru: The Rabbit's Foot（鲁加鲁：兔子的脚）](http://www.wolfire.com/lugaru)** - 跨平台开源 3D 动作游戏。 [[source]](https://github.com/WolfireGames/lugaru)
 
-- **[OpenLara（古墓丽影 复刻）](http://xproger.info/projects/OpenLara)** - 经典《古墓丽影》开源引擎。 [[source]](https://github.com/XProger/OpenLara)
+- 📱 **[OpenLara（古墓丽影 复刻）](http://xproger.info/projects/OpenLara)** - 经典《古墓丽影》开源引擎。 [[source]](https://github.com/XProger/OpenLara)
 
 - **[OpenRW（侠盗猎车手 3 复刻）](https://openrw.org)** - [Grand Theft Auto III](https://en.wikipedia.org/wiki/Grand_Theft_Auto_III) 的重实现。 [[source]](https://github.com/rwengine/openrw)
 
@@ -455,7 +494,7 @@
 
 ## 塔防游戏
 
-- **[Server Survival（服务器求生）](https://pshenok.github.io/server-survival)** - 教云架构的塔防游戏：建基础设施、扛住流量、学会扩容。 [[source]](https://github.com/pshenok/server-survival)
+- 📱 **[Server Survival（服务器求生）](https://pshenok.github.io/server-survival)** - 教云架构的塔防游戏：建基础设施、扛住流量、学会扩容。 [[source]](https://github.com/pshenok/server-survival)
 
 ## 回合制策略游戏
 
@@ -465,7 +504,7 @@
 
 - **[C-evo（文明 克隆）](http://c-evo.org/)** - 面向 Windows 的免费帝国建造游戏。 [[source]](http://c-evo.org/files/files.php)
 
-- **[fheroes2（英雄无敌 2 复刻）](https://ihhub.github.io/fheroes2)** - [Heroes of Might and Magic II](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II) 游戏引擎的重制。 [[source]](https://github.com/ihhub/fheroes2)
+- 📱 **[fheroes2（英雄无敌 2 复刻）](https://ihhub.github.io/fheroes2)** - [Heroes of Might and Magic II](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_II) 游戏引擎的重制。 [[source]](https://github.com/ihhub/fheroes2)
 
 - **[FreeCol（自由殖民）](https://www.freecol.org/)** - 基于老游戏 [Colonization](https://en.wikipedia.org/wiki/Sid_Meier%27s_Colonization) 的回合制策略游戏，玩法类似 [Civilization](https://en.wikipedia.org/wiki/Civilization_(video_game))。 [[source]](https://github.com/FreeCol/freecol)
 
@@ -481,9 +520,9 @@
 
 - **[The Battle for Wesnoth（韦诺之战）](https://www.wesnoth.org/)** - 高奇幻题材的回合制策略游戏。 [[source]](https://github.com/wesnoth/wesnoth)
 
-- **[Unciv（非文明）](https://yairm210.itch.io/unciv)** - [Civilization V](https://en.wikipedia.org/wiki/Civilization_V) 的开源安卓/桌面重制版。 [[source]](https://github.com/yairm210/Unciv)
+- 📱 **[Unciv（非文明）](https://yairm210.itch.io/unciv)** - [Civilization V](https://en.wikipedia.org/wiki/Civilization_V) 的开源安卓/桌面重制版。 [[source]](https://github.com/yairm210/Unciv)
 
-- **[VCMI Project（英雄无敌 3 复刻）](https://vcmi.eu)** - [Heroes of Might and Magic III](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_III) 的开源引擎。 [[source]](https://github.com/vcmi/vcmi)
+- 📱 **[VCMI Project（英雄无敌 3 复刻）](https://vcmi.eu)** - [Heroes of Might and Magic III](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_III) 的开源引擎。 [[source]](https://github.com/vcmi/vcmi)
 
 ## 其他清单
 
