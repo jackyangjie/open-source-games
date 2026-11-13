@@ -2,6 +2,8 @@
 
 This is a list of different open-source video games and commercial video games open-source remakes.
 
+**中文版 / Chinese:** [README.zh-CN.md](README.zh-CN.md)
+
 ## Table of contents
 
 - [Action games](#action-games)
